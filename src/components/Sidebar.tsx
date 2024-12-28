@@ -54,22 +54,29 @@ export const Sidebar = () => {
   return (
     <div className="flex min-h-screen">
   {/* Sidebar */}
-  <div className="bg-gray-800 text-white w-64 flex-shrink-0">
-    <div className="p-6">
-      <h2 className="text-2xl font-bold">CodeAnt AI</h2>
-      <ul className="mt-8 space-y-4">
-        <li className="hover:text-gray-300 cursor-pointer">Repositories</li>
-        <li className="hover:text-gray-300 cursor-pointer">AI Code Review</li>
-        <li className="hover:text-gray-300 cursor-pointer">Cloud Security</li>
-        <li className="hover:text-gray-300 cursor-pointer">Settings</li>
-        <li className="hover:text-gray-300 cursor-pointer">Support</li>
-        <li className="hover:text-gray-300 cursor-pointer">Logout</li>
-      </ul>
-    </div>
-  </div>
+  <div className="bg-white text-black w-64 flex-shrink-0">
+        <div className="p-6">
+          <h2 className="text-2xl font-bold">CodeAnt AI</h2>
+          <select
+            className="mt-4 bg-white text-black border-2 p-2 rounded-lg w-full"
+            defaultValue="UtkarshDhairyaPanwar"
+          >
+            <option value="UtkarshDhairyaPanwar">UtkarshDhairyaPanwar</option>
+          </select>
+          <ul className="mt-8 space-y-4">
+            <li className="hover:text-gray-300 cursor-pointer">Repositories</li>
+            <li className="hover:text-gray-300 cursor-pointer">AI Code Review</li>
+            <li className="hover:text-gray-300 cursor-pointer">Cloud Security</li>
+            <li className="hover:text-gray-300 cursor-pointer">How to Use</li>
+            <li className="hover:text-gray-300 cursor-pointer">Settings</li>
+            <li className="hover:text-gray-300 cursor-pointer">Support</li>
+            <li className="hover:text-gray-300 cursor-pointer">Logout</li>
+          </ul>
+        </div>
+      </div>
 
   {/* Main Content */}
-  <div className="flex-1 flex flex-col bg-gray-100">
+  {/* <div className="flex-1 flex flex-col bg-gray-100">
     <header className="bg-white shadow-md p-4 md:hidden">
       <h1 className="text-lg font-bold">Repositories</h1>
     </header>
@@ -110,7 +117,7 @@ export const Sidebar = () => {
         ))}
       </div>
     </main>
-  </div>
+  </div> */}
 </div>
 
   );

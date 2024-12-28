@@ -69,7 +69,7 @@ export const RepositoryList = () => {
   return (
     <div className="flex min-h-screen bg-gray-100">
       {/* Sidebar */}
-      <div className="bg-gray-800 text-white w-64 flex-shrink-0">
+      {/* <div className="bg-gray-800 text-white w-64 flex-shrink-0">
         <div className="p-6">
           <h2 className="text-2xl font-bold">CodeAnt AI</h2>
           <select
@@ -88,7 +88,7 @@ export const RepositoryList = () => {
             <li className="hover:text-gray-300 cursor-pointer">Logout</li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Content */}
       <div className="flex-1">
