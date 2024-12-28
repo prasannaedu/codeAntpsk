@@ -33,6 +33,9 @@ npm install
 ## Run the development server:
 npm run dev
 
+##Required Installations
+npm install @tanstack/react-query react-router-dom lucide-react clsx tailwind-merge
+
 ## Usage
 Open your browser and navigate to http://localhost:3000 to see the application in action.
 Contributing
